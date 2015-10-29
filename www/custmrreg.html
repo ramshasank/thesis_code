@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Registration form Template </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script>
+    function errorMsg(){
+    	
+    	if(location.search.split('flag=')[1] != -1){
+			
+			$('#errordisplay').html("User already exists");
+			$('#errordisplay').css("color",'red');
+			$('#errordisplay').css('text-align','center');
+			}
+		}
+    </script>
+    
+</head>
+<body onoad="errorMsg()">
+
+
+<div class="container">
+
+<div class="page-header">
+    <h1>Customer Registration Form </h1>
+</div>
+
+<!-- Registration form - START -->
+<div class="container">
+    <div class="row">
+    	<div id="errordisplay"></div>
+        <form role="form" method="post" action = "./customerReg.pl">
+            <div class="col-lg-6">
+                <div class="well well-sm"><strong><span class="glyphicon glyphicon-asterisk"></span>Required Field</strong></div>
+                <div class="form-group">
+                    <label for="InputName">Customer Name</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="InputCustName" id="InputName" placeholder="Enter Customer Name" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+									
+                <div class="form-group">
+                    <label for="InputEmail">Enter Customer Email</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" id="InputCustEmail" name="InputEmail" placeholder="Enter Customer Email" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+               
+				
+				<div class="form-group">
+                    <label for="InputPassword">Enter Password</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" name="Password" id="CustNewPassword" placeholder="Password" required />
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+				
+				<div class="form-group">
+                    <label for="InputPassword">Re-type Password</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" name="Password" id="CustRePassword" placeholder="Re-type Password" required />
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+                
+                <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+            </div>
+        </form>
+       
+    </div>
+</div>
+<!-- Registration form - END -->
+
+</div>
+</body>
+</html>
