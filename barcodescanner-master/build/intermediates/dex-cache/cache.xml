@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\nani\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="F:\Android app\barcodescanner-master\zbar\sample\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-316a58313ba84a03f5e9f1091ffb05a00f9fd7be.jar" />
+    </item>
+    <item
+        jar="F:\Android app\barcodescanner-master\zbar\sample\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.7\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a9bc68509fb96b8c2580271ead3ae65ad18f069c">
+        <dex dex="F:\Android app\barcodescanner-master\zbar\sample\build\intermediates\pre-dexed\debug\classes-d037b072d6d40815663aae80cabed8bb666fe35a.jar" />
+    </item>
+    <item
+        jar="F:\Android app\barcodescanner-master\zbar\sample\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.7\libs\zbar.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="F:\Android app\barcodescanner-master\zbar\sample\build\intermediates\pre-dexed\debug\zbar-62d7fecb56f943c22d76670d8b8953a88438bb17.jar" />
+    </item>
+    <item
+        jar="F:\Android app\barcodescanner-master\zbar\sample\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="F:\Android app\barcodescanner-master\zbar\sample\build\intermediates\pre-dexed\debug\classes-fc1e6080994ed19634550d6caf1690ae1c8ff778.jar" />
+    </item>
+    <item
+        jar="F:\Android app\barcodescanner-master\zbar\sample\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.7\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="068eb5c44888c4d2b804ecd5c020ef83675d956d">
+        <dex dex="F:\Android app\barcodescanner-master\zbar\sample\build\intermediates\pre-dexed\debug\classes-c83c6d318f1b4f769f60179acfb1f4d58c986e61.jar" />
+    </item>
+    <item
+        jar="F:\Android app\barcodescanner-master\zbar\sample\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="F:\Android app\barcodescanner-master\zbar\sample\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-615088d43b9e4ee437a52211d4292e0d1f430fc5.jar" />
+    </item>
+    <item
+        jar="F:\Android app\barcodescanner-master\zbar\sample\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="F:\Android app\barcodescanner-master\zbar\sample\build\intermediates\pre-dexed\debug\classes-99d42cbca73ea234c08df3fc4a2eb19d76bbab9e.jar" />
+    </item>
+
+</items>
